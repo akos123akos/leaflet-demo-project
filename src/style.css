@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, sans-serif;
+}
+
+#app {
+  display: flex;
+  height: 100%;
+}
+
+#sidebar {
+  width: 300px;
+  padding: 16px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+  background: #fafafa;
+}
+
+#sidebar h1 {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+/* Round category badges used as divIcon markers. */
+.poi-icon div {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+.legend {
+  background: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.legend i {
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+
+/* Custom one-button controls, sized like Leaflet's zoom buttons. */
+.leaflet-bar a.button-control {
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.leaflet-bar a.button-control.active {
+  background: #fde68a;
+}
+
+/* Crosshair cursor while the measuring tool is active. */
+.leaflet-container.measuring,
+.leaflet-container.measuring .leaflet-interactive {
+  cursor: crosshair;
+}
+
+#info {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+#info h2 {
+  font-size: 1rem;
+  margin: 0 0 4px;
+}
+
+#info ul {
+  padding-left: 18px;
+}
+
+/* The map container needs an explicit height. */
+#map {
+  flex: 1;
+  height: 100%;
+}

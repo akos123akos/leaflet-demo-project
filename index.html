@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive map of Budapest built with Leaflet and TypeScript." />
+    <title>Budapest Explorer</title>
+  </head>
+  <body>
+    <div id="app">
+      <aside id="sidebar">
+        <h1>Budapest Explorer</h1>
+        <div id="info">
+          <p>An interactive map of Budapest's sights and its 23 districts.</p>
+          <ul>
+            <li>Hover over or click a district for details</li>
+            <li>Click a marker to learn about a sight</li>
+            <li>📏 measures distances, 📍 shows your location</li>
+            <li>Switch base maps and layers at the top right</li>
+          </ul>
+        </div>
+      </aside>
+      <div id="map"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# Personal study notes, not part of the public repo
+NOTES.md

@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "parliament",
+        "name": "Hungarian Parliament",
+        "category": "landmark",
+        "description": "Neo-Gothic parliament on the Pest bank, completed 1904."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0456,
+          47.5071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "castle",
+        "name": "Buda Castle",
+        "category": "landmark",
+        "description": "Historic royal palace on Castle Hill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0396,
+          47.4962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bastion",
+        "name": "Fisherman's Bastion",
+        "category": "landmark",
+        "description": "Lookout terraces with views over the Danube."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0347,
+          47.5022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chain-bridge",
+        "name": "Széchenyi Chain Bridge",
+        "category": "landmark",
+        "description": "First permanent bridge between Buda and Pest (1849)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0436,
+          47.4989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "basilica",
+        "name": "St. Stephen's Basilica",
+        "category": "landmark",
+        "description": "Budapest's largest church."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0539,
+          47.5009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "heroes",
+        "name": "Heroes' Square",
+        "category": "landmark",
+        "description": "Millennium Monument at the end of Andrássy út."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0779,
+          47.5149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "citadella",
+        "name": "Citadella",
+        "category": "landmark",
+        "description": "Fortress on top of Gellért Hill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.047,
+          47.4868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "national-museum",
+        "name": "Hungarian National Museum",
+        "category": "museum",
+        "description": "National history museum."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0617,
+          47.491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "opera",
+        "name": "Hungarian State Opera",
+        "category": "museum",
+        "description": "Neo-Renaissance opera house on Andrássy út."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0583,
+          47.5028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "synagogue",
+        "name": "Dohány Street Synagogue",
+        "category": "museum",
+        "description": "Largest synagogue in Europe."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0606,
+          47.4958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "szechenyi-bath",
+        "name": "Széchenyi Thermal Bath",
+        "category": "bath",
+        "description": "Huge outdoor thermal pools in City Park."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0817,
+          47.5189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gellert-bath",
+        "name": "Gellért Thermal Bath",
+        "category": "bath",
+        "description": "Art Nouveau bath at the foot of Gellért Hill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0518,
+          47.4838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "market-hall",
+        "name": "Great Market Hall",
+        "category": "food",
+        "description": "Covered market with Hungarian specialities."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0585,
+          47.487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "new-york-cafe",
+        "name": "New York Café",
+        "category": "food",
+        "description": "Ornate 1894 coffee house."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0705,
+          47.4985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "szimpla",
+        "name": "Szimpla Kert",
+        "category": "food",
+        "description": "The original ruin bar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0633,
+          47.497
+        ]
+      }
+    }
+  ]
+}

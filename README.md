@@ -2,7 +2,7 @@
 
 An interactive map of Budapest built with **Leaflet** and **TypeScript**: sights, district boundaries shaded by area, a distance-measuring tool, geolocation, and a rendering-performance comparison with 5,000 points.
 
-**Live demo:** _add your GitHub Pages link here_
+**Live demo:** https://akos123akos.github.io/leaflet-demo-project/
 
 ## Features
 
